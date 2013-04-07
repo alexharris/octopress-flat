@@ -1,0 +1,15 @@
+body > footer {
+  @extend .sans;
+  font-size: .8em;
+  color: $white;
+  background-color: $darkBrick;
+  position: relative;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-bottom: 3em;
+  z-index: 1;
+  p:last-child { margin-bottom: 0; }
+  a:hover {
+    color: $lightBrick;
+  }
+}
