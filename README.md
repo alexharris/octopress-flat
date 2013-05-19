@@ -6,6 +6,7 @@ Ideally, it will eventually allow each post to have a unique color theme, but I 
 
 Check out the theme on my personal blog [here](http://blog.alexharr.is).
 
+Twitter: @alexharris6
 
 Install
 -------
