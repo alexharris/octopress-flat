@@ -4,7 +4,7 @@ Octopress Flat is a "Flat UI"-inspired theme for [Octopress](http://octopress.or
 
 Ideally, it will eventually allow each post to have a unique color theme, but I have to figure out how to do that first.
 
-Check out the theme on my personal blog [here](http://blog.alexharr.is).
+![Octopress Flat](/octopress-flat.png)
 
 Twitter: @alexharris6
 
