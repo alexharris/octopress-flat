@@ -1,13 +1,13 @@
 // $font-icon: FontAwesome;
-$font-icon-path: "/font/cubano-regular-webfont";
+$font-icon-path: "cubano-regular-webfont";
 
 @font-face {
     font-family: 'CubanoRegular';
-    src: url('#{$font-icon-path}');
-    src: url('#{$font-icon-path}.eot?#iefix') format('embedded-opentype'),
-         url('#{$font-icon-path}.woff') format('woff'),
-         url('#{$font-icon-path}.ttf') format('truetype'),
-         url('#{$font-icon-path}.svg#CubanoRegular') format('svg');
+    src: font-url('#{$font-icon-path}.eot');
+    src: url('#{font-url('#{$font-icon-path}.eot', true)}#iefix') format('embedded-opentype'),
+         font-url('#{$font-icon-path}.woff') format('woff'),
+         font-url('#{$font-icon-path}.ttf') format('truetype'),
+         url('#{font-url('#{$font-icon-path}.svg', true)}#CubanoRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
