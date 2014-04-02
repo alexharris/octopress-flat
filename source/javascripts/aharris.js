@@ -6,7 +6,7 @@ function forEach(array, action) {
 $(document).ready(function() {
 	var articles = $('articles');
 	forEach(articles, print);
-}
+});
 
 
 // $(document).ready(function() {
