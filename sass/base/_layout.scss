@@ -25,7 +25,6 @@ $header-padding-bottom: 1.5em !default;
   width: auto;
   clear: left;
   margin: 0;
-  padding: 2em 5px;
   // background-color: lighten($sidebar-bg, 2);
   section {
     &.odd, &.even { float: left; width: 48%; }
@@ -47,7 +46,7 @@ body {
   max-width: $max-width;
   position: relative;
   margin: 0 auto;
-  > header, > nav, > footer, #content > article, #content > div > article, #content > div > section {
+  > header, > nav, > footer, #content > article, #content > div > article, #content > div > section, &.collapse-sidebar aside.sidebar {
     @extend .group;
     padding-left: $pad-min;
     padding-right: $pad-min;
@@ -111,9 +110,6 @@ aside.sidebar {
 .toggle-sidebar { &, .no-sidebar & { display: none; }}
 
 body.sidebar-footer {
-  @media only screen and (min-width: 750px) {
-    aside.sidebar{ @include collapse-sidebar; }
-  }
   #content { margin-right: 0px; }
   .toggle-sidebar { display: none; }
 }
@@ -175,9 +171,6 @@ body.sidebar-footer {
   }
   aside.sidebar {
     width: $sidebar-width-wide - $sidebar-pad-wide*2;
-    .collapse-sidebar & {
-      padding: { left: $pad-wide; right: $pad-wide; }
-    }
   }
 }
 
